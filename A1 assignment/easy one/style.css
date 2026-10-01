@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: calc(100% - 200px);
+  width: calc(100% - 200px);
+  margin: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.part-1 {
+  height: 100%;
+  width: 60%;
+  background-color: #fcc60c;
+  /* position: relative; */
+}
+
+.part-1 img {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  height: 80px;
+  width: 230px;
+}
+
+.part-1 .text-part {
+  padding: 150px 30px;
+}
+
+.part-1 .text-part h6 {
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.part-1 .text-part h1 {
+  font-size: 150px;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.part-1 .text-part p {
+  width: 400px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.part-2 {
+  height: 100%;
+  width: 33%;
+  background-color: #fbe8b5;
+  position: absolute;
+  left: 60%;
+  top: 0%;
+}
+
+.part-2 {
+  padding: 20px 0px 0px 375px;
+  font-size: 200%;
+}
+
+main img {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
